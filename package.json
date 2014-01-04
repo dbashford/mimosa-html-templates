@@ -1,0 +1,32 @@
+{
+  "name": "mimosa-html-templates",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dbashford/mimosa-html-templates",
+  "author": "David Bashford",
+  "description": "A Plain HTML micro-template compiler for Mimosa 2.0+",
+  "contributors": [
+    {
+      "name": "David Bashford",
+      "email": "dbashford@hotmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dbashford/mimosa-html-templates"
+  },
+  "keywords": [
+    "mimosa",
+    "mmodule",
+    "compiler",
+    "html",
+    "template"
+  ],
+  "dependencies": {
+    "underscore": "1.5.2"
+  },
+  "license": "MIT",
+  "main": "./src",
+  "engines": {
+    "node": ">=0.10"
+  }
+}
