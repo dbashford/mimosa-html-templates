@@ -1,7 +1,7 @@
 "use strict";
 
 var _ = require( "underscore" )
-  , config = require( './config' )
+  , config = require( "./config" )
   , getExtensions = function ( mimosaConfig ) {
     return mimosaConfig.htmlTemplates.extensions;
   }
@@ -15,7 +15,7 @@ var _ = require( "underscore" )
   };
 
 var prefix = function ( mimosaConfig ) {
-  if ( mimosaConfig.template.wrapType === 'amd' ) {
+  if ( mimosaConfig.template.wrapType === "amd" ) {
     return "define(function () { var templates = {};\n";
   }
 
@@ -23,7 +23,7 @@ var prefix = function ( mimosaConfig ) {
 };
 
 var suffix = function ( mimosaConfig ) {
-  if ( mimosaConfig.template.wrapType === 'amd' ) {
+  if ( mimosaConfig.template.wrapType === "amd" ) {
     return "return templates; });";
   } else {
     if ( mimosaConfig.template.wrapType === "common" ) {

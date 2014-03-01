@@ -3,15 +3,15 @@
 exports.defaults = function() {
   return {
     htmlTemplates: {
-      extensions: [ "template" ],
+      extensions: [ "template" ]
     }
   };
 };
 
 exports.placeholder = function() {
-  return "\t\n\n"+
-         "  # htmlTemplates:              # config settings for the HTML template compiler module\n" +
-         "    # extensions: [\"template\"]  # default extensions for HTML templates\n";
+  return "\t\n\n" +
+         "  htmlTemplates:              # config settings for the HTML template compiler module\n" +
+         "    extensions: [\"template\"]  # default extensions for HTML templates\n";
 };
 
 exports.validate = function( config, validators ) {
@@ -27,6 +27,3 @@ exports.validate = function( config, validators ) {
 
   return errors;
 };
-
-
-
