@@ -24,4 +24,4 @@ htmlTemplates:
   extensions: ["template"]
 ```
 
-* `extensions`: an array of strings, the extensions of your HTML templates.
+* `extensions`: an array of strings, the extensions of your HTML templates. If you choose to change the value here to `html`, be sure to remove `html` from the `copy.extensions` array if you are using the mimosa-copy module.
