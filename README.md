@@ -15,7 +15,7 @@ Add `'html-templates'` to your list of modules.  That's all!  Mimosa will instal
 
 This module will compile plain HTML micro-templates into reusable javascript functions during `mimosa watch` and `mimosa build`.
 
-This module utilizes all of the built-in template behavior that comes with Mimosa's basic template compiler.  See the [mimosa website](http://mimosa.io/compilers.html#mt) for more information about how templates are treated or check out the various [`template` configuration options](http://mimosa.io/configuration.html#templates).
+This module utilizes all of the built-in template behavior that comes with Mimosa's basic template compiler.  See the [mimosa website](http://mimosa.io/modules.html#mt) for more information about how templates are treated or check out the various [`template` configuration options](http://mimosa.io/configuration.html#templates).
 
 ## Default Config
 
